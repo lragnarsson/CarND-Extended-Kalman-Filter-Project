@@ -34,7 +34,7 @@ class FusionEKF {
  private:
   // check whether the tracking toolbox was initialized or not (first measurement)
   bool is_initialized_;
-
+  bool debug_log_ = false;
   // previous timestamp
   long long previous_timestamp_;
 
